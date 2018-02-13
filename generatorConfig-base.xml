@@ -59,7 +59,16 @@
 		<!--<table schema="" tableName="t_zfqy_ryjbxxb" />-->
 		<!--<table schema="" tableName="t_ajjbxxb" />-->
 		<!--<table schema="" tableName="t_jjcjxx" />-->
-		<table schema="" tableName="S_WARNING" />
+		<table schema="" tableName="t_sawp_wp_ckhx">
+			<!--<columnOverride column="ASSESSMENTDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="AUCTIONDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="SAVEDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="EXAMINEDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="MANAGEMENTDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="PAIDDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="CLAIMDATE" jdbcType="TIMESTAMP"/>-->
+			<!--<columnOverride column="ACTTIME" jdbcType="TIMESTAMP"/>-->
+		</table>
 		<!-- 供应商 -->
 		<!--<table schema="" tableName="usergys" />-->
 		<!--<table schema="" tableName="usergysarea" />-->
