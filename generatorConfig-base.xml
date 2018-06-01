@@ -58,8 +58,8 @@
 		<!-- 监督单位 -->
 		<!--<table schema="" tableName="t_zfqy_ryjbxxb" />-->
 		<!--<table schema="" tableName="t_ajjbxxb" />-->
-		<!--<table schema="" tableName="t_jjcjxx" />-->
-		<table schema="" tableName="t_sawp_wp_ckhx">
+		<table schema="" tableName="T_CHOOSE_GPY" />
+		<!--<table schema="" tableName="t_sawp_wp_ckhx">-->
 			<!--<columnOverride column="ASSESSMENTDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="AUCTIONDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="SAVEDATE" jdbcType="TIMESTAMP"/>-->
@@ -68,7 +68,7 @@
 			<!--<columnOverride column="PAIDDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="CLAIMDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="ACTTIME" jdbcType="TIMESTAMP"/>-->
-		</table>
+		<!--</table>-->
 		<!-- 供应商 -->
 		<!--<table schema="" tableName="usergys" />-->
 		<!--<table schema="" tableName="usergysarea" />-->
