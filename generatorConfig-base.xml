@@ -58,7 +58,7 @@
 		<!-- 监督单位 -->
 		<!--<table schema="" tableName="t_zfqy_ryjbxxb" />-->
 		<!--<table schema="" tableName="t_ajjbxxb" />-->
-		<table schema="" tableName="T_CHOOSE_GPY" />
+		<table schema="" tableName="t_interface_certification" />
 		<!--<table schema="" tableName="t_sawp_wp_ckhx">-->
 			<!--<columnOverride column="ASSESSMENTDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="AUCTIONDATE" jdbcType="TIMESTAMP"/>-->
