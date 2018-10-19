@@ -22,6 +22,14 @@
 			password="shinow">
 		</jdbcConnection>
 
+
+		<!--<jdbcConnection driverClass="oracle.jdbc.OracleDriver"-->
+		<!--connectionURL="jdbc:oracle:thin:@172.0.16.104:1521:WLZF"-->
+		<!--userId="ysppt3"-->
+		<!--password="shinow">-->
+		<!--</jdbcConnection>-->
+
+
 		<!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer true，把JDBC DECIMAL 和 
 			NUMERIC 类型解析为java.math.BigDecimal -->
 		<javaTypeResolver>
@@ -58,7 +66,7 @@
 		<!-- 监督单位 -->
 		<!--<table schema="" tableName="t_zfqy_ryjbxxb" />-->
 		<!--<table schema="" tableName="t_ajjbxxb" />-->
-		<table schema="" tableName="t_interface_certification" />
+		<!--<table schema="" tableName="t_interface_certification" />-->
 		<!--<table schema="" tableName="t_sawp_wp_ckhx">-->
 			<!--<columnOverride column="ASSESSMENTDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="AUCTIONDATE" jdbcType="TIMESTAMP"/>-->
@@ -69,6 +77,9 @@
 			<!--<columnOverride column="CLAIMDATE" jdbcType="TIMESTAMP"/>-->
 			<!--<columnOverride column="ACTTIME" jdbcType="TIMESTAMP"/>-->
 		<!--</table>-->
+		<table schema="" tableName="T_AJBLFSXXB">
+
+		</table>
 		<!-- 供应商 -->
 		<!--<table schema="" tableName="usergys" />-->
 		<!--<table schema="" tableName="usergysarea" />-->
