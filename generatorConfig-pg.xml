@@ -16,9 +16,9 @@
 			connectionURL="jdbc:mysql://localhost:3306/mybatis" userId="root"
 			password="mysql">
 		</jdbcConnection> -->
-		<jdbcConnection driverClass="oracle.jdbc.OracleDriver"
-			connectionURL="jdbc:oracle:thin:@172.0.16.101:1521:ZFBA"
-			userId="gawlzf"
+		<jdbcConnection driverClass="org.postgresql.Driver"
+			connectionURL="jdbc:postgresql://172.0.16.11:5432/zfba1"
+			userId="postgres"
 			password="shinow">
 		</jdbcConnection>
 
@@ -80,10 +80,10 @@
 		<!--<table schema="" tableName="T_AJBLFSXXB">-->
 
 		<!--</table>-->
-		<table schema="" tableName="t_risklinks" >
+		<table schema="" tableName="t_message" >
 
 		</table>
-		<table schema="" tableName="t_xfsfbz" >
+		<table schema="" tableName="t_message_content" >
 
 		</table>
 	<!--<table schema="" tableName="t_zhfz_duban_chaosong" >-->
